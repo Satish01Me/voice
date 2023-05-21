@@ -21,4 +21,3 @@ tzdata==2023.3
 urllib3==2.0.2
 Werkzeug==2.2.3
 zipp==3.15.0
-sudo apt-get install portaudio19-dev
