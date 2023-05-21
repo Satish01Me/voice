@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: aqua;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.fixed-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+  }
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+ 
+.company-name {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white ;
+  }
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	margin: 20px;
+}
+
+
+ 
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+footer p {
+	margin: 0;
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 20px;
+	  width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+	  cursor: pointer;
+	  box-sizing: border-box;
+	  border: 1px solid #dddddd;
+
+
+}
+.button1 {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 30%;
+  padding: 10px 20px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+
+
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #333333;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ 
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.pass {
+  background-color: #007bff;
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #45a049;
+}
+p {
+  text-align: center;
+}
